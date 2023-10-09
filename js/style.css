@@ -96,7 +96,7 @@ body {
     align-items: center;
 }
 
-.task1-title {
+.task-title {
     align-self: flex-start;
     margin-bottom: 20px;
     font-weight: normal;

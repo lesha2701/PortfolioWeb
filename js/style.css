@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    --backColor: #e0e0e0;
+    --backColor: radial-gradient(#82bae4, #0d83dd);
 }
 
 .container {
@@ -90,7 +90,7 @@ body {
     padding: 20px;
 }
 
-.task1 {
+.task {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +102,51 @@ body {
     font-weight: normal;
 }
 
-.done {
-    text-decoration: underline;
+.create-task {
+    margin-bottom: 10px;
+}
+
+.task-block {
+    display: flex;
+    flex-direction: column;
+}
+
+#create-task__text {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.create-task__button {
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #0d83dd;
+    color: #fff;
+    border: none;
+    transition: background-color .2s;
+}
+
+.create-task__button:hover {
+    background-color: #3596e0;
+}
+
+.tasks-list {
+    list-style: none;
+}
+
+.tasks-item {
+    border-left: 2px solid #3596e0;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.delete-todo {
+    float: right;
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
 }

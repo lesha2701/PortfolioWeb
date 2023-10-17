@@ -160,3 +160,25 @@ body {
 .colorChange__x {
     padding: 10px;
 }
+
+.time__create-times {
+    display: flex;
+    gap: 40px;
+}
+
+.timer__create-time {
+    display: flex;
+    gap: 10px;
+}
+
+.timer__create-hours--time,
+.timer__create-minute--time,
+.timer__create-seconds--time {
+    width: 70px;
+    text-align: center;
+}
+
+.timer__create-title {
+    text-align: center;
+    margin-bottom: 10px;
+}

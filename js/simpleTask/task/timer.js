@@ -30,11 +30,11 @@ const newTime = (element, getTime) => {
 
 const timerFunc = () => {
     valueSeconds.textContent -= 1
-    if (valueSeconds.textContent === '0') {
+    if (valueSeconds.textContent === '-1' && valueMinute.textContent !== '0') {
         valueMinute.textContent -= 1
-        valueSeconds.textContent = 59   
+        valueSeconds.textContent = 59  
     }
-    if (valueMinute.textContent === '0') {
+    if (valueMinute.textContent === '-1' && valueHours.textContent !== '0') {
         valueHours.textContent -= 1
         valueMinute.textContent = 59
     }
@@ -42,5 +42,5 @@ const timerFunc = () => {
 
 const start = document.querySelector('.timer__create-start')
 start.addEventListener('click', () => {
-    setInterval(timerFunc, 1000)
+    let startInterval = setInterval(timerFunc, 1000)
 })

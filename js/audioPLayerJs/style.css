@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: #574c31
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #574c31;
+}
+
+.audio  {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #cfc1af;
+}
+
+.audio__cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.audio__cover-img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 4px 4px 37px 3px rgba(34, 60, 80, 0.22);
+    -moz-box-shadow: 4px 4px 37px 3px rgba(34, 60, 80, 0.22);
+    box-shadow: 4px 4px 37px 3px rgba(34, 60, 80, 0.22);    
+}
+
+.audio__info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.audio__info-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.audio__info-band {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.progressBar {
+    width: 80%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.progressBar__all {
+    border-radius: 2px;
+    height: 5px;
+    width: 100%;
+    background-color: #574c31;
+    opacity: 0.2;
+}
+
+.progressBar__play {
+    height: 5px;
+    width: 40%;
+    background-color: #574c31;
+    position: absolute;
+    top: 0;
+    border-radius: 2px;
+}
+
+.audio__play {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.audio__play-prev {
+    transform: scale(-1, -1);
+}
+
+.audio__play-item {
+    cursor: pointer;
+}

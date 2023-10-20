@@ -9,29 +9,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
+    <script src="./app.js"></script>
     <title>Audio PLayer</title>
 </head>
 <body>
     <div class="audio">
         <div class="audio__cover">
-            <img class="audio__cover-img" src="./img/nautilus1.jpg" alt="">
+            <img class="audio__cover-img" alt="">
         </div>
         <div class="audio__info">
-            <p class="audio__info-name">Я хочу быть с тобой</p>
-            <p class="audio__info-band">Nautilus Pompilius</p>
+            <p class="audio__info-name"></p>
+            <p class="audio__info-band"></p>
         </div>
         <div class="progressBar">
             <div class="progressBar__all"></div>
             <div class="progressBar__play"></div>
         </div>
         <div class="audio__play">
+            <audio controls class="song">
+                <source src="./audio/Nautilus_Pompilius_-_YA_khochu_byt_s_tobojj_47951027.mp3" type="audio/mpeg">
+            </audio>
             <img class="audio__play-prev audio__play-item" src="./img/next.svg" alt="">
-            <img class="audio__play-item" src="./img/play.svg" alt="">
-            <img class="audio__play-item" src="./img/next.svg" alt="">
+            <img onclick="playPause()" class="audio__play-song audio__play-item play" src="./img/play.svg" alt="">
+            <img class="audio__play-next audio__play-item" src="./img/next.svg" alt="">
         </div>
     </div>
-
-    <script src="./app.js"></script>
 </body>
 </html>

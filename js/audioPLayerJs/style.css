@@ -93,3 +93,7 @@ body {
 .audio__play-item {
     cursor: pointer;
 }
+
+.song {
+    display: none;
+}

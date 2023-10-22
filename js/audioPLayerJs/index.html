@@ -26,11 +26,13 @@
         </div>
         <div class="audio__play">
             <audio controls class="song">
-                <source src="./audio/Nautilus_Pompilius_-_YA_khochu_byt_s_tobojj_47951027.mp3" type="audio/mpeg">
+                <source class="songSrc" src="./audio/Nautilus_Pompilius_-_YA_khochu_byt_s_tobojj_47951027.mp3" type="audio/mpeg">
             </audio>
-            <img class="audio__play-prev audio__play-item" src="./img/next.svg" alt="">
+            <img onclick="replaySong()" src="./img/replay.svg" class="audio__play-item audio__play-replay" alt="">
+            <img onclick="prevSong()" class="audio__play-prev audio__play-item" src="./img/next.svg" alt="">
             <img onclick="playPause()" class="audio__play-song audio__play-item play" src="./img/play.svg" alt="">
-            <img class="audio__play-next audio__play-item" src="./img/next.svg" alt="">
+            <img onclick="nextSong()" class="audio__play-next audio__play-item" src="./img/next.svg" alt="">
+            <img onclick="randomSongs()" src="./img/move.svg" class="audio__play-item audio__play-move" alt="">
         </div>
     </div>
     <script src="./app.js"></script>

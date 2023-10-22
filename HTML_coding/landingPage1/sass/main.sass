@@ -1,0 +1,280 @@
+body
+    font-family: 'Roboto', sans-serif
+    min-width: 320px
+    min-height: 100vh
+
+h1, h2, h3, h4, h5, h6, p
+    margin: 0
+
+.container
+    max-width: 1440px
+    margin: 0 auto
+    padding: 0 21px
+
+.header 
+    padding: 22px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border: 1px solid #000000
+
+.header__btn
+    background: #FB4B4D
+    padding: 15px 44px
+    color: #fff
+    letter-spacing: 0.5px
+    text-transform: uppercase
+    font-size: 14px
+    line-height: 22px
+    text-decoration: none
+
+.nav__items 
+    display: flex
+    gap: 150px
+    list-style: none
+
+    .nav__item a
+        color: #222
+        letter-spacing: 0.5px
+        text-transform: uppercase
+        font-size: 14px
+        line-height: 22px
+        text-decoration: none
+
+.coffee
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    border: 1px solid #000
+    border-top: none
+
+.coffee__left 
+    border-right: 1px solid #000
+
+.mainImgBlock
+    box-sizing: border-box
+    border-bottom: 1px solid #000
+
+.mainImg
+    width: 100%
+    height: 100%
+
+.coffee__scroll-block
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 32px
+    padding: 22px 0
+    border-bottom: 1px solid #000
+    
+.coffee__scroll-block--text
+    margin: 0
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    font-size: 17px
+    line-height: 26px
+
+.photoLeft-block
+    padding: 19px 21px
+
+.photoLeft
+    width: 100%
+    height: 100% 
+
+.coffee__right
+    text-align: center
+
+.coffe__title-block
+    border-bottom: 1px solid #000
+
+.coffee__title
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    margin: 24px auto 11px
+    width: 536px
+    font-size: 58px
+    line-height: 65px
+    font-weight: 400
+
+.photoRight-block
+    padding: 18px
+
+.photoRight
+    width: 100%
+    height: 100%
+
+.lava
+    border: 1px solid #000
+    border-top: none
+
+.lava__title
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 30px 30px
+    border-bottom: 1px solid #000
+
+.lava__title-text
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    text-align: center
+    font-size: 65px
+    line-height: 63px
+    width: 785px
+    font-weight: 400
+
+.lava__catalog 
+    position: relative
+    padding: 0 20px
+
+.lava__catalog-icons
+    position: absolute
+    width: 97%
+    box-sizing: border-box
+    display: flex
+    justify-content: space-between
+    align-items: center
+    z-index: -1
+
+.iconLeft
+    position: relative
+    left: -19px
+
+.iconRight
+    position: relative
+    left: 19px
+
+
+.lava__catalog-cards
+    list-style: none
+    display: flex
+    justify-content: space-between
+    padding: 0
+
+.card
+    min-height: 658px
+    max-width: 436px
+    background-image: url('../image/Vector.png')
+    box-sizing: border-box
+    text-align: center
+    padding: 23px 23px
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+
+.card-title
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    font-size: 32px
+    line-height: 38px
+    font-weight: 400
+    margin: 14px 0
+
+.card-text
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    font-size: 18px
+    line-height: 28px
+
+.scroll
+    display: flex
+    gap: 30px
+    align-items: center
+    padding: 24px 0
+    border: 1px solid #000
+    border-top: none
+
+.scroll__title
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    font-size: 17px
+    line-height: 26px
+    width: 270px
+
+.photo
+    border: 1px solid #000
+    border-top: none
+
+.photo-img
+    width: 100%
+    height: 100%
+
+.story
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    border: 1px solid #000
+    border-top: none
+
+.story__right
+    background-image: url('../image/storyImg.png')
+    background-size: cover
+
+.story__left
+    text-align: center
+    border-right: 1px solid #000
+
+.story__title
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    width: 590px
+    font-size: 58px
+    line-height: 70px
+    font-weight: 400
+    margin: 60px 53px 50px 54px
+
+.story-img
+    width: 100%
+    position: relative
+    top: 4px
+
+.story__right
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+.story-text
+    width: 392px
+    margin-bottom: 23px
+    font-size: 16px
+    line-height: 24px
+
+.banner
+    position: relative
+    border: 1px solid #000
+    border-top: none
+    min-height: 776px
+
+.banner-img
+    position: absolute
+    width: 100%
+    bottom: 0
+    z-index: -1
+
+.footer
+    display: flex
+    justify-content: space-between
+    padding: 20px 90px
+    background-color: #CDFD3B
+    border: 1px solid #000
+    border-top: none
+    p, a
+        text-transform: uppercase
+    a
+        text-decoration: none
+        color: #000
+
+.ticker
+    position: relative
+    overflow: hidden
+
+.ticker__item
+    display: flex
+    gap: 20px
+    animation: ticker 6s linear infinite
+
+@keyframes ticker
+    0%
+        transform: translateZ(0)
+    100%
+        transform: translate3d(-100%, 0, 0)

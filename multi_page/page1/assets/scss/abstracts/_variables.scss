@@ -24,7 +24,28 @@ $color-achieved: $ronchi;
 /**
 * Fonts
 */
-$font-size-base: 16px;
+$font-family-custom: 'BigShouldersDisplay';
+$font-family-default: sans-serif;
+
+$font-path: '../../public/fonts';
+$font-name-bold: 'BigShouldersDisplay-Bold';
+$font-name-regular: 'BigShouldersDisplay-Regular';
+$font-family: $font-family-custom, $font-family-default;
+
+$font-weight: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$font-size-base: 18px;
+$line-height-base: normal;
+
+$font-size-big: 16px;
+
+$font-size-medium: 14px;
+
+$font-size-small: 12px;
+
+$font-size-tiny: 7px;
 
 
 
@@ -45,12 +66,15 @@ $screen-medium: '(min-width: 768px)';
 /**
 * Sizes
 */
-
+$container-padding: 30px 80px 50px;
 
 
 /**
 * Transitions and Animations
 */
+
+$transition: .3s;
+$transition-animation: ease-in-out;
 
 
 
@@ -69,4 +93,7 @@ $screen-medium: '(min-width: 768px)';
 /**
 * Z-indexes
 */
-
+$z-big: 50;
+$z-middle: 30;
+$z-small: 10;
+$z-min: 1

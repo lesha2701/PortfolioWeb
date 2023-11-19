@@ -1,0 +1,72 @@
+/**
+* Colors
+*
+* Название переменной конкретного цвета генерируется через сервис: http://chir.ag/projects/name-that-color/.
+* Значение цвета всегда указывается в HEX-формате в нижнем регистре (кроме исключительных случаев).
+*/
+// Пример указания цветов
+$cinnabar: #e84a4a;
+$boulder: #7a7a7a;
+$black-russian: #000003;
+$screamin-green: #7dff68;
+$bombay: #b2b7ba;
+$ronchi: #e8bb4a;
+$white: #fff;
+
+$color-text: $boulder;
+$color-accent: $cinnabar;
+$background-color: $black-russian;
+$color-number: $screamin-green;
+$color-achieved: $ronchi;
+
+
+
+/**
+* Fonts
+*/
+$font-size-base: 16px;
+
+
+
+/**
+* Breakpoints
+*/
+// Пример указания медиазапросов, затем можно использовать ее как '@media #{$screen-medium} {...}'
+$screen-medium: '(min-width: 768px)';
+
+
+
+/**
+* Layout
+*/
+
+
+
+/**
+* Sizes
+*/
+
+
+
+/**
+* Transitions and Animations
+*/
+
+
+
+/**
+* Radius
+*/
+
+
+
+/**
+* Box-shadows
+*/
+
+
+
+/**
+* Z-indexes
+*/
+

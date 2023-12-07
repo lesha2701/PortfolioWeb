@@ -1,0 +1,20 @@
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__statistics,
+    &__time {
+        display: flex;  
+        align-items: center;
+        gap: rem(13px);   
+    }
+
+    &__time {
+        gap: rem(27px)
+    }
+
+}

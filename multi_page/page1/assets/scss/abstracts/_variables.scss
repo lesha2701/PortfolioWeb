@@ -27,6 +27,9 @@ $color-achieved: $ronchi;
 $font-family-custom: 'BigShouldersDisplay';
 $font-family-default: sans-serif;
 
+$font-family-custom-ice: 'Iceland-Regular';
+$font-name-iceland: 'Iceland-Regular';
+
 $font-path: '../../public/fonts';
 $font-name-bold: 'BigShouldersDisplay-Bold';
 $font-name-regular: 'BigShouldersDisplay-Regular';
@@ -35,6 +38,8 @@ $font-family: $font-family-custom, $font-family-default;
 $font-weight: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
+
+$font-size-huge: 26px;
 
 $font-size-base: 18px;
 $line-height-base: normal;
@@ -73,7 +78,7 @@ $container-padding: 30px 80px 50px;
 * Transitions and Animations
 */
 
-$transition: .3s;
+$transition: .2s;
 $transition-animation: ease-in-out;
 
 

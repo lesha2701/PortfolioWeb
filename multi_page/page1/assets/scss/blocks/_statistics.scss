@@ -1,0 +1,69 @@
+.statistics {
+
+    &__icon {
+        align-self: center;
+
+        border: rem(1px) solid rgba(255, 255, 255, 0.29);
+        padding: rem(12px);
+
+        cursor: pointer;
+
+        transition: $transition $transition-animation;
+
+        &:hover {
+            background-color: $color-accent;
+            border-color: $color-accent;
+
+        }
+    }
+
+    &__icon:hover & {
+        &__pic {
+            color: $white
+        }
+    }
+
+    &__pic {
+        width: rem(10px);
+        height: rem(10px);
+
+        color: $color-accent;
+
+        transition: $transition $transition-animation;
+    }
+
+    &__coins {
+        display: flex;
+        gap: rem(4px);
+        align-items: flex-end;
+    }
+
+    &__level {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__number {
+        font-size: rem($font-size-huge);
+        font-weight: $font-weight-bold;
+
+        letter-spacing: rem(1.95px);
+
+        color: $color-number
+    }
+
+    &__text {
+        font-size: ($font-size-big);
+        color: $white;
+        font-weight: $font-weight-bold;
+        
+        opacity: .6;
+        letter-spacing: rem(1.2px);
+        text-transform: uppercase;
+
+        &-level {
+            margin-left: rem(4px);
+            margin-right: 46px;
+        }
+    }
+}

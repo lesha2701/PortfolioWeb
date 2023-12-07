@@ -15,3 +15,12 @@
     src: url("#{$font-path}/#{$font-name-regular}.woff") format("woff"),
          url("#{$font-path}/#{font-name-regular}.woff2") format("woff2");
 }
+
+@font-face {
+    $font-name: $font-name-iceland;
+    font-family: $font-family-custom-ice;
+    font-weight: $font-weight;
+    font-style: normal;
+    src: url("#{$font-path}/#{$font-name-iceland}.woff") format("woff"),
+         url("#{$font-path}/#{$font-name-iceland}.woff2") format("woff2");
+}

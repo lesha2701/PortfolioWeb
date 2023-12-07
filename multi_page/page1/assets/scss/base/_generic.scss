@@ -19,4 +19,22 @@ body {
     font-size: rem($font-size-base);
     font-weight: $font-weight;
     line-height: $line-height-base;
+
+    max-width: rem(1920px);
+    height: 100vh;
+
+    margin: 0 auto;
+
+    padding: $container-padding;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }

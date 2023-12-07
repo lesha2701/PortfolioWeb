@@ -1,0 +1,18 @@
+.time {
+    font-family: $font-name-iceland $font-family-default;
+
+    &__credits {
+        font-size: rem($font-size-base);
+
+        color: $white
+    }
+
+    &__server {
+        display: flex;
+        gap: 5px;
+    }
+
+    &__timing {
+        color: $white
+    }
+}
